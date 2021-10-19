@@ -1,0 +1,13 @@
+{  
+    "manifest_version": 2,  
+    "name": "myzenwallet extension",  
+    "description": "Extension of myzenwallet",  
+    "version": "1.0",  
+    "browser_action": {  
+     "default_popup": "dist/index.html"  
+    },  
+    "permissions": [  
+     "activeTab",  
+     "storage"  
+    ]  
+   }  
